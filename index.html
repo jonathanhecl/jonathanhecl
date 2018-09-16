@@ -1,1 +1,245 @@
-Hola!
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jonathan Hecl - Desarrollador Full-stack</title>
+    <meta name="description" content="Jonathan Hecl - Desarrollador Full-stack - Full-stack Developer - フルスタックの開発">
+    <meta property="og:title" content="Jonathan Hecl - Desarrollador Full-stack" />
+    <meta property="og:type" content="article" />
+    <link rel="canonical" href="http://www.jonathanhecl.com/" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> </head>
+
+<body data-ng-app="jh">
+   
+    <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx"> <i class="fa fa-bars"></i> </button>
+        <div class="container">
+            <div class="collapse navbar-toggleable-xs" id="collapseEx">
+                <a class="navbar-brand active" href="#home" du-smooth-scroll du-scrollspy offset="30">JH</a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about" data-translate="ABOUTME" du-smooth-scroll du-scrollspy offset="30">Acerca de mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" data-translate="PORTFOLIO" du-smooth-scroll du-scrollspy offset="30">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience" data-translate="EXP" du-smooth-scroll du-scrollspy offset="30">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-translate="CONTACT" du-smooth-scroll du-scrollspy offset="30">Contacto</a></li>
+                    <li class="nav-item btn-group float-sm-right"> <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1" data-ng-controller="controllerLang"> <a class="dropdown-item" data-ng-click="changeLanguage('en')">English</a> <a class="dropdown-item" data-ng-click="changeLanguage('jp')">日本語</a> <a class="dropdown-item" data-ng-click="changeLanguage('es')">Español</a> </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="view hm-black-strong" id="home">
+        <div id="home" class="full-bg-img flex-center">
+            <ul class="animated fadeInUp">
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Jonathan Hecl</h1></li>
+                <li>
+                    <p class="wow fadeInDown" data-translate="TITLE">FULL-STACK DEVELOPER</p>
+                </li>
+                <li> <a href="https://www.linkedin.com/in/jhecl" target="_blank" class="btn btn-li btn-lg wow fadeInLeft" data-wow-delay="0.2s"><i class="fa fa-linkedin left"></i> Linkedin</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+       
+        <div class="divider-new" id="about">
+            <h2 class="h2-responsive wow bounceIn" data-translate="ABOUTME">About</h2>
+        </div>
+        <section class="text-xs-justify wow bounceIn" data-wow-delay="0.2s">
+            <p data-translate="ABOUTME_DESC">Self-taught from an early age. I learned to use MS-DOS at age 6, I learned to program at age 8 (a dictionary) and made my first website in 1995 with 11 years (a directory of web addresses). Computer Technician. Professor in Technology Education.</p>
+        </section>
+        
+        <div class="divider-new" id="portfolio">
+            <h2 class="h2-responsive wow fadeInDown" data-translate="PORTFOLIO">Portfolio</h2>
+        </div>
+        <section class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="view overlay hm-white-slight hm-zoom"> <img src="./images/corazonchile.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block text-xs-center">
+                            <h4 class="card-title">CORAZÓN CHILE</h4><hr>
+                            <p class="card-text" data-translate="PORTFOLIO_CORAZONCHILE_DESC"></p>
+                        </div>
+                        <div class="card-data">
+                            <a href="http://www.corazon-chile.cl/" class="green-text" target="_blank" data-translate="PORTFOLIO_CLICK">Click para visitar el sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="view overlay hm-white-slight hm-zoom"> <img src="./images/avolar.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block text-xs-center">
+                            <h4 class="card-title">AVOLAR</h4><hr>
+                            <p class="card-text" data-translate="PORTFOLIO_AVOLAR_DESC">Avolar is a collaborative platform in which they sell and buy LATAM airline flight miles among users.</p>
+                        </div>
+                        <div class="card-data">
+                            <a href="https://www.avolar.cl/" class="green-text" target="_blank" data-translate="PORTFOLIO_CLICK">Click para visitar el sitio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card wow fadeInUp">
+                        <div class="view overlay hm-white-slight hm-zoom"> <img src="./images/etipia.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block text-xs-center">
+                            <h4 class="card-title">ETIPIA</h4><hr>
+                            <p class="card-text" data-translate="PORTFOLIO_ETIPIA_DESC">Etipia is a social network of both digital and printed photographs.
+                                <br/>Onlt available in the entire territory of Chile.</p>
+                            
+                        </div>
+                        <div class="card-data">
+                            http://www.etipia.com/ (Offline)
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="view overlay hm-white-slight hm-zoom"> <img src="./images/gszone.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <div class="card-block text-xs-center">
+                            <h4 class="card-title">GS-ZONE</h4><hr>
+                            <p class="card-text" data-translate="PORTFOLIO_GSZONE_DESC">(Personal project)</p>
+                        </div>
+                        <div class="card-data">
+                            <a href="http://www.gs-zone.org/" class="green-text" target="_blank" data-translate="PORTFOLIO_CLICK">Click para visitar el sitio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="divider-new" id="experience">
+            <h2 class="h2-responsive wow fadeInUp" data-translate="EXP">Experience</h2>
+        </div>
+        <section class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+            <div class="row">
+                <ul class="stepper stepper-vertical">
+                    <li class="active">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-coffee"></i></span>
+                            <span class="label"><h3 data-translate="EXP_HEXASOFT">Developer Full stack</h3><h5><a href="http://hexasoft.cc/" class="green-text" target="_blank">Hexasoft</a> (Remote)</h5><h6 data-translate="EXP_HEXASOFT_DATE">2017-Now</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EXP_HEXASOFT_DESC">Desarrollado Freelance en todo tipo de proyectos, desde software, web, movil, gestion, edición, mejoras, etc.</p>
+                        </div>
+                    </li>
+                    <li class="completed">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-puzzle-piece"></i></span>
+                            <span class="label"><h3 data-translate="EXP_ETIPIA1">Gerente de aplicaciones y protocolo</h3><h5><a href="http://www.etipia.com/" class="green-text" target="_blank">Etipia</a> (Chile)</h5><h6 data-translate="EXP_ETIPIA1_DATE">2015-2016</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EXP_ETIPIA1_DESC">Gerente de aplicaciones y protocolo; coordinador de los equipos de desarrollo Front-End en las plataformas Android, iOS y back-end en ASP.NET.
+                            <br/>Diseño, desarrollo y coordinación de la logística para el API de Etipia.</p>
+                        </div>
+                    </li>
+                    <li class="completed">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-briefcase"></i></span>
+                            <span class="label"><h3 data-translate="EXP_ETIPIA2">Senior Web Developer</h3><h5><a href="http://www.etipia.com/" class="green-text" target="_blank">Etipia</a> (Chile)</h5><h6 data-translate="EXP_ETIPIA2_DATE">2015-2016</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EXP_ETIPIA2_DESC">Desarrollado Web de la plataforma actual de Etipia utilizando AngularJs, protocolo SOAP, WebSocket y HTML5/CSS3/Canvas.</p>
+                        </div>
+                    </li>
+                    <li class="completed">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-wrench"></i></span>
+                            <span class="label"><h3 data-translate="EXP_EARTECH">Técnico Auxiliar</h3><h5 data-translate="EXP_EARTECH_PLACE">EARTECH Computación (Argentina)</h5><h6 data-translate="EXP_EARTECH_DATE">2004-2006</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EXP_EARTECH_DESC">Técnico principal, encargado del mantenimiento de equipos (antivirus, programas), instalaciones de sistemas operativos (Microsoft Windows 98, Microsoft Windows ME, Microsoft Windows 2000, Microsoft Windows XP), software (Microsoft Office 2000) y hardware (placas de video, red, inalámbricos, sonido, etc.) ademas de configuraciones de redes TCP/IP.</p>
+                        </div>
+                    </li>
+                    <li class="active">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-coffee"></i></span>
+                            <span class="label"><h3 data-translate="EXP_FREELANCE">Desarrollador Freelance</h3></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EXP_FREELANCE_DESC">Desarrollado Freelance en todo tipo de proyectos, desde software, web, movil, gestion, edición, mejoras, etc.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeInUp" data-translate="EDU">Educación</h2>
+        </div>
+        <section class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+            <div class="row">
+                <ul class="stepper stepper-vertical">
+                    <li class="completed">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-graduation-cap"></i></span>
+                            <span class="label"><h3 data-translate="EDU1">Profesor en Educación Tecnológica</h3><h5 data-translate="EDU1_LOCATION">E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)</h5><h6 data-translate="EDU1_DATE">2009-2013</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EDU1_DESC">Profesorado en educación inicial, primaria y secundaria con especialidad en Educación Tecnológica.<br/>Miembro del Consejo Directivo 2010-2012.</p>
+                        </div>
+                    </li>
+                    <li class="completed">
+                        <div class="step-title">
+                            <span class="circle"><i class="fa fa-graduation-cap"></i></span>
+                            <span class="label"><h3 data-translate="EDU2">Técnico en Computación</h3><h5 data-translate="EDU1_LOCATION">E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)</h5><h6 data-translate="EDU2_DATE">1998-2003</h6></span>
+                        </div>
+                        <div class="step-content grey lighten-3">
+                            <p data-translate="EDU2_DESC">Educación Secundaria Técnica con especialidad en Computación.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </div>
+    
+    <footer class="page-footer center-on-small-only" id="contact">
+        <div class="call-to-action">
+            <h4 data-translate="CONTACT">Contact</h4>
+            <p data-translate="LOCATION">Argentina</p>
+            <ul>
+                <li> <a href="https://www.linkedin.com/in/jhecl" target="_blank" class="btn  btn-li btn-lg wow fadeInLeft" data-wow-delay="0.2s"><i class="fa fa-linkedin left"></i> Linkedin</a> </li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid"> 2018 Jonathan Hecl </div>
+        </div>
+    </footer>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/angular-scroll.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
+<?php
+die();

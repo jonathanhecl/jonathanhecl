@@ -1,0 +1,160 @@
+/* Jonathan G. Hecl */
+var app = angular.module('jh', ['pascalprecht.translate', 'duScroll']);
+var configInit = function ($translateProvider) {
+    $translateProvider.translations('jp', {
+        TITLE: 'フルスタックの開発'
+        , ABOUTME: '私について'
+        , ABOUTME_DESC: 'こんにちは、私の名前はヨナタンです、私は独学の開発者であり、私は自分自身を改革するのを止めることはありません。私は経験を複数のファセット、言語、環境に分散しています。複雑なアプリケーションや特定のタスクをプログラムすることができます。私はビデオゲームの開発、設計されたデータベース、管理されたコミュニティと社会グループ、そして調整された作業グループに取り組んできました。私は秩序ある方法で仕事をし、私のプロジェクトで明確なガイドラインを持っているので、私はリーダーシップのポジションに優れている傾向があります。私の夢は日本からやって来て仕事をすることですが、私はまだその言語で勉強しています。理由私はいつも自発的に日本語のeラーニングプロジェクトに参加したいと思っています。最近は主にウェブ開発、ウェブサイトのダイアグラム作成とモデリング、フロントエンドとバックエンドの両方の開発に参加しています。私はいつも新しい挑戦を求めて、私が自分の夢に近づくことを可能にしています。 (Google Translatorで翻訳)'
+        , CONTACT: '接触'
+        , LOCATION: 'アルゼンチン'
+        , SKILLS: 'スキル'
+        , SKILLWEB: 'ウェブデザイン (HTML5 / CSS3)'
+        , SKILLSEC: 'セキュリティ'
+        , SKILLCOM: 'コミュニティ管理者'
+        , SKILLPRO: 'プロジェクト管理'
+        , EXP: '経験'
+        , EXP_HEXASOFT: 'フルスタック開発者'
+        , EXP_HEXASOFT_DATE: '2017年-現在'
+        , EXP_HEXASOFT_DESC: 'PHPを使用したサイトのフロントエンド開発 角度4,5,6; ASP.NETとJavaScript / jQuery。 AndroidおよびiOS向けのIonic Framework 3,4のハイブリッドアプリケーションの開発 Golang、Selenium、およびC＃.NETを使用してデータを取得および操作するバックエンド開発。 IISでのSSL証明書の管理と実装'
+        , EXP_ETIPIA1: 'Managerアプリケーションとプロトコル'
+        , EXP_ETIPIA1_DATE: '2015年〜2016年'
+        , EXP_ETIPIA1_DESC: 'Managerアプリケーションとプロトコル。私は開発のチームコーディネーターです。アンドロイド、iOSの中のフロントエンドで。そして、ASP.NETプラットフォームでバックエンドに。<br/>設計、開発、Etipia APIのための物流のコーディネート。'
+        , EXP_ETIPIA2: 'シニアWeb開発者'
+        , EXP_ETIPIA2_DATE: '2015年〜2016年'
+        , EXP_ETIPIA2_DESC: 'AngularJs、SOAPプロトコル、WebSocketのとHTML5/ CSS3/キャンバスを使用してWeb開発者向けプラットフォームEtipia。'
+        , EXP_EARTECH: 'テクニカルアシスタント'
+        , EXP_EARTECH_PLACE: 'EARTECH Computación (アルゼンチン)'
+        , EXP_EARTECH_DATE: '2005年-2006年'
+        , EXP_EARTECH_DESC: 'テクニカルアシスタント、 機器のメンテナンス（ウイルス対策、プログラム）の担当で、 設備のオペレーティング・システム（Microsoft Windows 98、 Microsoft Windows ME、 Microsoft Windows 2000、 Microsoft Windows XP）、 ソフトウェア（Microsoft Office 2000）とハードウェア（ビデオカード、ネットワーク、ワイヤレス、音など）TCP/IPネットワーク以外の構成。'
+        , EXP_FREELANCE: 'フリーランスの開発者'
+        , EXP_FREELANCE_DESC: 'プロジェクトのすべての種類の開発フリーランス。 ソフトウェア、ウェブ、モバイル、管理、編集、改善、などから。'
+        , EDU: '教育'
+        , EDU1: '技術教育における教授'
+        , EDU1_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (アルゼンチン)'
+        , EDU1_DATE: '2009年〜2013年'
+        , EDU1_DESC: '技術教育に特化した、初期の初等・中等教育における教師。<br/>2010年から2012年まで委員会のメンバー。'
+        , EDU2: 'コンピュータ技術者'
+        , EDU2_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (アルゼンチン)'
+        , EDU2_DATE: '1998年〜2003年'
+        , EDU2_DESC: 'コンピュータサイエンスを専門とする技術的な中等教育。'
+        , PORTFOLIO: 'ポートフォリオ'
+        , PORTFOLIO_CLICK: 'サイトを訪問するクリック'
+        , PORTFOLIO_CORAZONCHILE_DESC: 'このプラットフォームにより、病院から患者に個人情報を取得することができます。 注意の時間をスケジュールし、複数のデバイスから医療記録を確認することができます。<br/>チリの全領域でのみ利用可能です。'
+        , PORTFOLIO_AVOLAR_DESC: 'Avolarは、ユーザー間でLATAM航空会社の飛行マイルを売買する共同プラットフォームです。<br/>チリの全領域でのみ利用可能です。'
+        , PORTFOLIO_ETIPIA_DESC: 'Etipiaは、両方のデジタルプリント写真のソーシャルネットワークです。<br/>チリの全領域でのみ利用可能です。'
+        , PORTFOLIO_GSZONE_DESC: 'GS-Zoneは、オンライン11年以上ゲーム開発指向の開発者のコミュニティです。<br/>プロジェクトでは知的発達と関心指向プログラミングのビデオゲームを促進することに専念します。<br/><br/><i>（個人プロジェクト）</i>'
+        , MORE: 'もっと'
+        , HOME: 'トップページ'
+    , });
+    $translateProvider.translations('en', {
+        TITLE: 'Full-stack Developer'
+        , ABOUTME: 'About me'
+        , ABOUTME_DESC: 'Hi, my name is Jonathan, I\'m a self-taught developer and I never stop reinventing myself. I have experience distributed across multiple facets, languages ​​and environments. I can program complex applications or for specific tasks. I have worked in the development of video games, designed databases, managed communities and social groups, as well as coordinated working groups. I like to work in an orderly way and have the clear guidelines in my projects, so I tend to stand out for leadership positions. My dream is to live and work from or in Japan, but I\'m still training with the language. Reasons I am always willing to be involved in Japanese language e-learning projects on a voluntary basis. Lately I am mainly dedicated to web development, diagramming and modeling of websites, participating in the development of both the front-end and the back-end. I am always in search of new challenges that allow me to get closer to my dreams.'
+        , CONTACT: 'Contact'
+        , LOCATION: 'Argentina'
+        , SKILLS: 'Skills'
+        , SKILLWEB: 'Web Design (HTML5 / CSS3)'
+        , SKILLSEC: 'Security'
+        , SKILLCOM: 'Community Manager'
+        , SKILLPRO: 'Project management'
+        , EXP: 'Experience'
+        , EXP_HEXASOFT: 'Full-Stack Developer'
+        , EXP_HEXASOFT_DATE: '2017-Present'
+        , EXP_HEXASOFT_DESC: 'Front End development of sites using PHP; Angular 4, 5, 6; ASP.NET and JavaScript/jQuery. Development of hybrid applications with Ionic Framework 3, 4 for Android and iOS. Back End development for obtaining and manipulating data with Golang, Selenium and C#.NET. Management and implementation of SSL Certificates in IIS.'
+        , EXP_ETIPIA1: 'Manager applications and protocol'
+        , EXP_ETIPIA1_DATE: '2015-2016'
+        , EXP_ETIPIA1_DESC: 'Manager applications and protocol; teams coordinator Front-End development on Android, iOS and Back-End in ASP.NET platforms.<br/>Design, development and coordination of logistics for Etipia API.'
+        , EXP_ETIPIA2: 'Senior Web Developer'
+        , EXP_ETIPIA2_DATE: '2015-2016'
+        , EXP_ETIPIA2_DESC: 'Web Developer Platform Etipia using AngularJs, SOAP protocol, WebSocket and HTML5 / CSS3 / Canvas.'
+        , EXP_EARTECH: 'Technical Assistant'
+        , EXP_EARTECH_PLACE: 'EARTECH Computación (Argentina)'
+        , EXP_EARTECH_DATE: '2005-2006'
+        , EXP_EARTECH_DESC: 'Technical assistant, in charge of equipment maintenance (antivirus, programs), facility operating systems (Microsoft Windows 98, Microsoft Windows ME, Microsoft Windows 2000, Microsoft Windows XP), software (Microsoft Office 2000) and hardware (video cards, network , wireless, sound, etc.) configurations besides TCP/IP networks.'
+        , EXP_FREELANCE: 'Freelance Developer'
+        , EXP_FREELANCE_DESC: 'Freelance Developed in all kinds of projects; from software, web, mobile, management, editing, improvements, etc.'
+        , EDU: 'Education'
+        , EDU1: 'Professor in Technology Education'
+        , EDU1_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)'
+        , EDU1_DATE: '2009-2013'
+        , EDU1_DESC: 'Teachers in initial, primary and secondary education, specializing in Technological Education.<br/>Member of the Board from 2010 to 2012.'
+        , EDU2: 'Computer Technician'
+        , EDU2_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)'
+        , EDU2_DATE: '1998-2003'
+        , EDU2_DESC: 'Technical Secondary Education with specialization in Computer Science.'
+        , PORTFOLIO: 'Portfolio'
+        , PORTFOLIO_CLICK: 'Click to visit the site'
+        , PORTFOLIO_CORAZONCHILE_DESC: 'This platform allows you to take personal information from the hospital to the patient. You can schedule your hours of attention and review your medical records from multiple devices.<br/>Only available in the entire territory of Chile.'
+        , PORTFOLIO_AVOLAR_DESC: 'Avolar is a collaborative platform in which they sell and buy LATAM airline flight miles among users.<br/>Only available in the entire territory of Chile.'
+        , PORTFOLIO_ETIPIA_DESC: 'Etipia is a social network of both digital and printed photographs.<br/>Only available in the entire territory of Chile.'
+        , PORTFOLIO_GSZONE_DESC: 'GS-Zone is a community of developers oriented game development with over 11 years online.<br/>Project dedicated to promoting intellectual development and interest-oriented programming video games.<br/><br/><i>(Personal project)</i>'
+        , MORE: 'More'
+        , HOME: 'Home'
+    , });
+    $translateProvider.translations('es', {
+        TITLE: 'Desarrollador Full-stack'
+        , ABOUTME: 'Acerca de mi'
+        , ABOUTME_DESC: 'Hola, mi nombre es Jonathan, soy desarrollador autodidacta y nunca dejo de reinventarme. Cuento con experiencia distribuida entre múltiples facetas, lenguajes y entornos. Puedo programar aplicaciones complejas o para tareas especificas. He trabajado en el desarrollo de videojuegos, diseñado bases de datos, administrado comunidades y grupos sociales, así como grupos de trabajo coordinados. Me gusta trabajar de forma ordenada y tener las pautas claras en mis proyectos, por lo que tiendo a destacar para posiciones de liderazgo. Mi sueño es vivir y trabajar desde o en Japón, pero aún me estoy capacitando con el idioma. Razones no me faltan para estar siempre relacionado en proyectos de e-learning del idioma japones de manera voluntaria. Últimamente me estoy dedicando principalmente al desarrollo web, diagramado y maqueteado de sitios web, participando en el desarrollo tanto del front-end como del back-end. Estoy siempre en busca de nuevos desafíos que me permitan acercarme más a mis sueños.'
+        , CONTACT: 'Contacto'
+        , LOCATION: 'Argentina'
+        , SKILLS: 'Habilidades'
+        , SKILLWEB: 'Diseño Web (HTML5 / CSS3)'
+        , SKILLSEC: 'Seguridad'
+        , SKILLCOM: 'Community Manager'
+        , SKILLPRO: 'Gestión de proyectos'
+        , EXP: 'Experiencia'
+        , EXP_HEXASOFT: 'Desarrollador Full stack'
+        , EXP_HEXASOFT_DATE: '2017-Actualmente'
+        , EXP_HEXASOFT_DESC: 'Desarrollo Front End de sitios empleando PHP; Angular 4, 5, 6; ASP.NET y JavaScript/jQuery. Desarrollo de aplicaciones híbridas con Ionic Framework 3, 4 para Android y iOS. Desarrollo Back End para la obtención y manipulación de datos mediante Golang, Selenium y C#.NET. Gestión e implementación de Certificados SSL en IIS.'
+        , EXP_ETIPIA1: 'Gerente de aplicaciones y protocolo'
+        , EXP_ETIPIA1_DATE: '2015-2016'
+        , EXP_ETIPIA1_DESC: 'Gerente de desarrollo aplicaciones y protocolo; coordinador de los equipos de desarrollo Front-End en las plataformas Android, iOS y Back-End en ASP.NET.<br/>Diseño, desarrollo y coordinación de la logística para el API de Etipia.'
+        , EXP_ETIPIA2: 'Desarrollador Web Senior'
+        , EXP_ETIPIA2_DATE: '2015-2016'
+        , EXP_ETIPIA2_DESC: 'Desarrollado Web de la plataforma actual de Etipia utilizando AngularJs, protocolo SOAP, WebSocket y HTML5 / CSS3 / Canvas.'
+        , EXP_EARTECH: 'Técnico Auxiliar'
+        , EXP_EARTECH_PLACE: 'EARTECH Computación (Argentina)'
+        , EXP_EARTECH_DATE: '2005-2006'
+        , EXP_EARTECH_DESC: 'Técnico auxiliar, encargado del mantenimiento de equipos (antivirus, programas), instalaciones de sistemas operativos (Microsoft Windows 98, Microsoft Windows ME, Microsoft Windows 2000, Microsoft Windows XP), software (Microsoft Office 2000) y hardware (placas de video, red, inalámbricos, sonido, etc.) ademas de configuraciones de redes TCP/IP.'
+        , EXP_FREELANCE: 'Desarrollador Freelance'
+        , EXP_FREELANCE_DESC: 'Desarrollado Freelance en todo tipo de proyectos; desde software, web, movil, gestion, edición, mejoras, etc.'
+        , EDU: 'Educación'
+        , EDU1: 'Profesor en Educación Tecnológica'
+        , EDU1_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)'
+        , EDU1_DATE: '2009-2013'
+        , EDU1_DESC: 'Profesorado en educación inicial, primaria y secundaria con especialidad en Educación Tecnológica.<br/>Miembro del Consejo Directivo 2010-2012.'
+        , EDU2: 'Técnico en Computación'
+        , EDU2_LOCATION: 'E.E.T. Nº2 "Pbro. José María Colombo" (Argentina)'
+        , EDU2_DATE: '1998-2003'
+        , EDU2_DESC: 'Educación Secundaria Técnica con especialidad en Computación.'
+        , PORTFOLIO: 'Portafolio'
+        , PORTFOLIO_CLICK: 'Click para visitar el sitio'
+        , PORTFOLIO_CORAZONCHILE_DESC: 'Está plataforma permite lleva información personal del hospital al paciente. Usted puede agendar tus horas de atención y revisar tus registros médicos desde multiples dispositivos.<br/>Solo disponible en todo el territorio de Chile.'
+        , PORTFOLIO_AVOLAR_DESC: 'Avolar es una plataforma colaborativa en la que se venden y compran millas de vuelo aéreos de la aerolínea LATAM entre los usuarios.<br/>Solo disponible en todo el territorio de Chile.'
+        , PORTFOLIO_ETIPIA_DESC: 'Etipia es una red social de fotografías tanto digitales como impresas.<br/>Solo disponible en todo el territorio de Chile.'
+        , PORTFOLIO_GSZONE_DESC: 'GS-Zone es una comunidad de desarrolladores orientada al desarrollo de videojuegos con más de 11 años online.<br/>Proyecto dedicado a la promoción del desarrollo intelectual y el interés por la programación orientado a videojuegos.<br/><br/><i>(Proyecto personal)</i>'
+        , MORE: 'Más'
+        , HOME: 'Inicio'
+    , });
+    if (lang.includes("jp")) {
+        $translateProvider.preferredLanguage('jp');
+    }
+    else if (lang.includes("es")) {
+        $translateProvider.preferredLanguage('es');
+    }
+    else {
+        $translateProvider.preferredLanguage('en');
+    };
+};
+configInit.$inject = ['$translateProvider'];
+var controllerLang = function ($scope, $translate) {
+    $scope.changeLanguage = function (key) {
+        $translate.use(key);
+    };
+};
+controllerLang.$inject = ['$scope', '$translate'];
+var lang = window.navigator.language || window.navigator.userLanguage;
+/* Load */
+app.config(configInit);
+app.controller('controllerLang', controllerLang);
+
