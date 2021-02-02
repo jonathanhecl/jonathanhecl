@@ -1,0 +1,13 @@
+{
+    "home": {
+        "subtopic": "フルスタックの開発",
+        "hello": "こんにちは、 世界！",
+        "welcome": "私の個人的なウェブサイトへようこそ。",
+        "about": "私は独学で、開発者、デザイナー、プログラマー、ゲーマーです。"
+    },
+    "contact": {
+        "title": "接触",
+        "github": "https://github.com/jonathanhecl/",
+        "linkedin": "https://www.linkedin.com/in/jhecl/"
+    }
+}

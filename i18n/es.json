@@ -1,0 +1,13 @@
+{
+    "home": {
+        "subtopic": "Desarrollador full stack",
+        "hello": "Hola Mundo!",
+        "welcome": "Bienvenido a mi web personal.",
+        "about": "Soy un autodidacta, desarrollador, diseñador, programador y gamer."
+    },
+    "contact": {
+        "title": "Contacto",
+        "github": "https://github.com/jonathanhecl/",
+        "linkedin": "https://www.linkedin.com/in/jhecl/"
+    }
+}
