@@ -1,6 +1,6 @@
 ### Hola Mundo 👋
 
-![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true)
+![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
 
 
 
