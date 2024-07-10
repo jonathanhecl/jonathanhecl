@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO-CREW: How to Use Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GO-CREW</h1>
+            <p>How to Use Guide</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="./index.html">Go back</a>
+        <section>
+            <h2>Easy Steps to Get Started</h2>
+            <ol>
+                <li>Install Ollama: Visit <a href="https://ollama.com" target="_blank">ollama.com</a> and follow the installation instructions for your operating system.</li>
+                <li>Install a model (like Llama3):
+                    <pre><code>ollama pull llama3</code></pre>
+                </li>
+                <li>If needed, edit the default.toml configuration file for GO-CREW.</li>
+                <li>Run GO-CREW:
+                    <pre><code>./go-crew</code></pre>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Understanding the Configuration (default.toml)</h2>
+            <pre><code>name = 'default.toml'
+prompt = 'Hello World'  # initial prompt
+default_model = 'llama3'
+default_temperature = 0.8
+default_model_context = 0  # 0 = automatic
+default_timeout = 60
+concurrency = 2  # for more speed
+custom_template = ''
+language = ''
+system_prompt = ''
+server_url = ''  # for custom servers
+verbose = false
+
+[hosting]
+enabled = false  # host a webpage
+port = 3000
+auto_open = false  # open automatically when start
+
+[embedding]
+enabled = false  # use RAG functions
+database = 'default.db'
+database_compressed = false
+database_encryption_key = ''
+model = 'llama3'  # model for embedding
+contexts_rerank = true
+contexts_per_request = 10
+
+[embedding.chunking]
+chunk_max_size = 512
+chunk_overlap = 90
+
+[[embedding.sources]]
+document = 'document.txt'  # read a file, can use * for name
+
+[[embedding.sources]]
+url = 'https://www.jonathanhecl.com'  # read a website</code></pre>
+        </section>
+
+        <section>
+            <h2>Configuration Explanation</h2>
+            <ul>
+                <li><strong>prompt:</strong> The initial prompt sent to the model.</li>
+                <li><strong>default_model:</strong> The default language model to use (e.g., 'llama3').</li>
+                <li><strong>default_temperature:</strong> Controls the randomness of the output (0.0 to 1.0).</li>
+                <li><strong>default_model_context:</strong> Context size (0 for automatic).</li>
+                <li><strong>concurrency:</strong> Number of concurrent operations for increased speed.</li>
+                <li><strong>hosting:</strong> Settings for hosting a web interface.</li>
+                <li><strong>embedding:</strong> Settings for RAG (Retrieval-Augmented Generation) functions.</li>
+                <li><strong>embedding.sources:</strong> Define sources for document ingestion (files or URLs).</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 GO-CREW. All rights reserved.</p>
+    </footer>
+</body>
+</html>
