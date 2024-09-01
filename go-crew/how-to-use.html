@@ -24,8 +24,8 @@
             <h2>Easy Steps to Get Started</h2>
             <ol>
                 <li>Install Ollama: Visit <a href="https://ollama.com" target="_blank">ollama.com</a> and follow the installation instructions for your operating system.</li>
-                <li>Install a model (like Llama3):
-                    <pre><code>ollama pull llama3</code></pre>
+                <li>Install a model (like Llama3.1):
+                    <pre><code>ollama pull llama3.1</code></pre>
                 </li>
                 <li>If needed, edit the default.toml configuration file for GO-CREW.</li>
                 <li>Run GO-CREW:
@@ -38,13 +38,12 @@
             <h2>Understanding the Configuration (default.toml)</h2>
             <pre><code>name = 'default.toml'
 prompt = 'Hello World'  # initial prompt
-default_model = 'llama3'
+default_model = 'llama3.1'
 default_temperature = 0.8
 default_model_context = 0  # 0 = automatic
 default_timeout = 60
 concurrency = 2  # for more speed
-custom_template = ''
-language = ''
+language = ''    # for force a response language
 system_prompt = ''
 server_url = ''  # for custom servers
 verbose = false
@@ -55,20 +54,27 @@ port = 3000
 auto_open = false  # open automatically when start
 
 [embedding]
-enabled = false  # use RAG functions
+enabled = false         # use RAG functions
 database = 'default.db'
 database_compressed = false
 database_encryption_key = ''
-model = 'llama3'  # model for embedding
+model = 'nomic-embed-text'  # model for embedding
 contexts_rerank = true
-contexts_per_request = 10
+contexts_per_request = 3
 
 [embedding.chunking]
-chunk_max_size = 512
-chunk_overlap = 90
+semantic_chunking = true    # use semantic chunking
+semantic_threshold = 0.456
+chunk_max_size = 1024
+chunk_overlap = 154         # 0.15*chunk
 
 [[embedding.sources]]
 document = 'document.txt'  # read a file, can use * for name
+
+[[embedding.sources]]
+document = 'document.csv'  # read a csv file
+header_question='question'  # optional, if you want to use a header for the question embedding
+header_answer='answer'      # optional, if you want to use a header for the answer response
 
 [[embedding.sources]]
 url = 'https://www.jonathanhecl.com'  # read a website</code></pre>

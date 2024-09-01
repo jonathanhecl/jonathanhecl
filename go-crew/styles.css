@@ -99,6 +99,10 @@ ul {
 li {
     margin-bottom: 10px;
 }
+li.gold {
+    color: #ffef5c;
+}
+
 li:before {
     content: "• ";
     color: #ff4136;
