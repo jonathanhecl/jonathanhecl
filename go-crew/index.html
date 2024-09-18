@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GO-CREW: Offline RAG in Golang</title>
     <meta name="description" content="GO-CREW: Offline RAG in Golang">
+    <meta property="og:image" content="https://www.jonathanhecl.com/go-crew/interface.png">
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAr5JREFUWEfll0uozkEYxn/H/Z5bIZGNWy65hizERmFhIQmFOlJsLBFZkHLZWJCQomRhYWdFIhS55JLrQqHOkfsCuZtHz3zmjP9XX51zvvPVmc3/m/d7ZuaZd953nnfqgA7AFmA9MITqtAbgILCrDtgK7KjOuv+tsk0ExGZwGxFoEIHfbbT432Vrj0BPYHqIji7ALeBNGff0Nq4TcBt4XQY3EJgCfAeuA58yXBMPLAEOA/0M+ubo3JkNWuEQ7pPghMkjeXM43+1AV+Peh4BbB5xO5isRmGSGnQt2sho4bvsM4EpYrGMBbhVwwvblwMkCzA9gJnDT/5UIHAPW2HgHaATmu38PmOjfmlSTqwn3FpiX9LURtRvAVP++CPxMcJpjZU7gLjDBRg28D3wAujtN9P0KPADGGqfFnhinmPlld+srrOJDZ68j1VdkewGPgTE5AU000sZhwMvsgtAkIvQMGGGcrk15SoE6wDYtoN1+cV9jYkw9BzT3C2B4uyRwwVeuvDa3Eg+M9jkK+8iubc4RFCTFv5uwKAaKBrQPAkrD89n2Ffkfm5kFFR/BNF8k6YCWSMOKCUz2NToqCcKqEmiti+gsMAh4FXRnQSVpmJZKLeGB2r4JJT7j7Bad/VNA+t3XtuiBh4mQSLyEU3ZI8yVC3fyVGEmyoxipLzFSDaExWkOtJMdngMU2SpqlWLuTsI0EToVbcZnt11wJLXI/lW1JdZTwc1bHhcapIFmaEyhXQEQOkcDsoOuX/JjI02otcNRGVT6HCvJOXpoDXM4JyBXauaqf2PYEd6n8GmpJlbSq1Yf+fqCH+5LffcCmZKzm2xskfGNSPX12/0iGa1KWj/cZSxtUpChtVIwogsU+tv7ALEAlnKof1Q9FTbqvolSl2FXgXQaqvbK8zEZazdzWT7PGmnicxuf5hio+UlWVHdDz/A+beQjfso+Q9gAAAABJRU5ErkJggg==">
     <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,7 +14,9 @@
         <div class="container">
             <h1>GO-CREW</h1>
             <p>Powerful Offline RAG in Golang</p>
-            <p class="version">Version 0.1.38 (09/07/2024)</p>
+            <p class="version">Version 0.1.40 (01/09/2024)</p>
+            <div class="image-left"></div>
+            <div class="image-right"></div>
         </div>
     </header>
 
@@ -28,7 +31,8 @@
             <ul>
                 <li>Offline operation using local Ollama models</li>
                 <li>Local ChromaDb (encrypted/raw) for data storage</li>
-                <li>Process PDF and TXT files</li>
+                <li class="gold">Semantic chunking advanced text processing</li>
+                <li>Process PDF, TXT, CSV, JSON and JSONLine files</li>
                 <li>URL content processing (when online)</li>
                 <li>Wikipedia data analysis (when online)</li>
                 <li>YouTube video transcription analysis (when online)</li>
@@ -40,20 +44,31 @@
         <section>
             <h2>Changelog</h2>
             <ul>
-                <li>0.1.38 (09/07/2024): First release</li>
+                <li>0.1.40 (01/09/2024): Internal core changed, semantic chunking improved, CSV, JSON, JSONLine support added.</li>
+                <li>0.1.38 (09/07/2024): First release.</li>
             </ul>
         </section>
 
         <div class="btn-group">
             <a href="./how-to-use.html" class="btn btn-guide">How to Use Guide</a>
-            <a href="./builds/go-crew-0.1.38.macos.zip" class="btn">Download for Mac</a>
-            <a href="./builds/go-crew-0.1.38.win64.exe.zip" class="btn">Download for Windows</a>
-            <a href="./builds/go-crew-0.1.38.linux.zip" class="btn">Download for Linux</a>
+            <a href="./builds/go-crew-0.1.40.macos.zip" class="btn">Download for Mac</a>
+            <a href="./builds/go-crew-0.1.40.win64.exe.zip" class="btn">Download for Windows</a>
+            <a href="./builds/go-crew-0.1.40.linux.zip" class="btn">Download for Linux</a>
         </div>
     </div>
 
     <footer>
         <p>© 2024 GO-CREW. All rights reserved.</p>
     </footer>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7GSH5LCJ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZX7GSH5LCJ');
+    </script>
 </body>
 </html>
