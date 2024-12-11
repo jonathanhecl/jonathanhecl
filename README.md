@@ -1,7 +1,7 @@
 ### [Hola Mundo 👋](https://www.jonathanhecl.com)
 
 Links:
-- [GO-CREW](https://www.jonathanhecl.com/go-crew/)
+- [GO-Crew](https://www.jonathanhecl.com/go-crew/)
 - [Web Tools](https://jonathanhecl.github.io/web-tools/)
 
 ![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
