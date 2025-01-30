@@ -1,7 +1,8 @@
 ### [Hola Mundo 👋](https://www.jonathanhecl.com)
 
 Links:
-[Web Tools](https://jonathanhecl.github.io/web-tools/)
+- [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
 ![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
 
