@@ -2,6 +2,7 @@
 
 Links:
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [FolderFit](https://github.com/jonathanhecl/folderfit) - Efficient Selection, Perfect Fit for Folders and Files
 - [pNotepad](https://github.com/jonathanhecl/pNotepad) - A secure, cross-platform notepad application for creating and managing encrypted notes.
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
