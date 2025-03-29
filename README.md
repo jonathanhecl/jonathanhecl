@@ -4,6 +4,7 @@ Links:
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
 - [FolderFit](https://github.com/jonathanhecl/folderfit) - Efficient Selection, Perfect Fit for Folders and Files
 - [pNotepad](https://github.com/jonathanhecl/pNotepad) - A secure, cross-platform notepad application for creating and managing encrypted notes.
+- [AfterProcessClean](https://github.com/jonathanhecl/after-process-clean) - A lightweight Windows utility that monitors and tracks new processes that start on your system. (Windows 7/10/11 (32-bit or 64-bit))
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
 ![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
