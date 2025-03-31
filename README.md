@@ -2,6 +2,7 @@
 
 Links:
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [Sub-Translation](https://github.com/jonathanhecl/sub-translation) - A tool to translate subtitle files using Ollama models in local.
 - [FolderFit](https://github.com/jonathanhecl/folderfit) - Efficient Selection, Perfect Fit for Folders and Files
 - [pNotepad](https://github.com/jonathanhecl/pNotepad) - A secure, cross-platform notepad application for creating and managing encrypted notes.
 - [AfterProcessClean](https://github.com/jonathanhecl/after-process-clean) - A lightweight Windows utility that monitors and tracks new processes that start on your system.
