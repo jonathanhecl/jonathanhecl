@@ -2,6 +2,7 @@
 
 Links:
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [GGUF-to-Ollama](https://github.com/jonathanhecl/gguf-to-ollama) - Importing GGUF to Ollama made easy
 - [Sub-Translation](https://github.com/jonathanhecl/sub-translation) - A tool to translate subtitle files using Ollama models in local.
 - [Sub-Timing](https://github.com/jonathanhecl/sub-timing) - A cross-platform SRT/SSA subtitle timing correction tool.
 - [FolderFit](https://github.com/jonathanhecl/folderfit) - Efficient Selection, Perfect Fit for Folders and Files
