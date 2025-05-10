@@ -10,7 +10,7 @@ Links:
 - [AfterProcessClean](https://github.com/jonathanhecl/after-process-clean) - A lightweight Windows utility that monitors and tracks new processes that start on your system.
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
-DONATIONS (BNB BEP-20/ETH/POL): `0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d`
+💵 DONATIONS (BNB BEP-20/ETH/POL): `0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d` 💵 
 
 ![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
 
