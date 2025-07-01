@@ -1,7 +1,16 @@
 ### [Hola Mundo 👋](https://www.jonathanhecl.com)
 
 Links:
-[Web Tools](https://jonathanhecl.github.io/web-tools/)
+- [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [GGUF-to-Ollama](https://github.com/jonathanhecl/gguf-to-ollama) - Importing GGUF to Ollama made easy
+- [Sub-Translation](https://github.com/jonathanhecl/sub-translation) - A tool to translate subtitle files using Ollama models in local.
+- [Sub-Timing](https://github.com/jonathanhecl/sub-timing) - A cross-platform SRT/SSA subtitle timing correction tool.
+- [FolderFit](https://github.com/jonathanhecl/folderfit) - Efficient Selection, Perfect Fit for Folders and Files
+- [pNotepad](https://github.com/jonathanhecl/pNotepad) - A secure, cross-platform notepad application for creating and managing encrypted notes.
+- [AfterProcessClean](https://github.com/jonathanhecl/after-process-clean) - A lightweight Windows utility that monitors and tracks new processes that start on your system.
+- [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
+
+💵 DONATIONS (BEP-20): `0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d` 💵 
 
 ![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
 
