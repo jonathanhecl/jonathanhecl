@@ -1,6 +1,7 @@
 ### [Hola Mundo 👋](https://www.jonathanhecl.com)
 
 Links:
+- [Stream-Sync](https://github.com/jonathanhecl/stream-sync) - Cross-platform stream manager for Twitch & Kick sync.
 - [JapaVerbs](https://japaverbs.pages.dev/) - Aprende verbos Japoneses con esta PWA ([Códigos](https://github.com/jonathanhecl/japaverbs))
 - [Bru-ship](https://github.com/jonathanhecl/bru-ship) - A lightweight, powerful CLI tool written in Go to convert Bruno API collections (.bru files) into Postman Collection v2.1 format.
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
