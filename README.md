@@ -16,10 +16,6 @@ Links:
 
 💵 DONATIONS (BEP-20): `0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d` 💵 
 
-![Jonathan GitHub stats](https://github-readme-stats.vercel.app/api?username=jonathanhecl&show_icons=true&theme=dark)
-
-
-
 [![Golang](https://img.shields.io/badge/Golang-47A248?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)](https://github.com/jonathanhecl?tab=repositories)
 [![Google_Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=101010)](https://github.com/jonathanhecl?tab=repositories)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://github.com/jonathanhecl?tab=repositories)<br/>
