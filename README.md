@@ -7,6 +7,7 @@ Featured links:
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
 
 Projects:
+- 📝 [peerFlow](https://github.com/jonathanhecl/PeerFlow) - A cross-platform, decentralized, real-time shared notepad that works entirely over your local network. No servers, no cloud, no external dependencies — pure Peer-to-Peer.
 - 📊 [ollama-bench-go](https://github.com/jonathanhecl/ollama-bench-go) - Benchmarking tool for Ollama models written in Go.
 - 🔄 [gigabot-remote-updater](https://github.com/jonathanhecl/gigabot-remote-updater) - Remote updater utility for the Gigabot agent.
 - 🔐 [pNotepad-plus](https://github.com/jonathanhecl/pNotepad-plus) - Enhanced secure, cross-platform notepad for encrypted notes.
