@@ -2,6 +2,7 @@
 
 Featured links:
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
+- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 - [JapaVerbs](https://japaverbs.pages.dev/) - Learn Japanese verbs with this PWA ([Codes](https://github.com/jonathanhecl/japaverbs))
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
