@@ -2,6 +2,7 @@
 
 Featured links:
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
+- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
 - [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 - [JapaVerbs](https://japaverbs.pages.dev/) - Learn Japanese verbs with this PWA ([Codes](https://github.com/jonathanhecl/japaverbs))
