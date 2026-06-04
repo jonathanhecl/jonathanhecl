@@ -2,13 +2,16 @@
 
 Featured links:
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
-- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
-- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
-- [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 - [JapaVerbs](https://japaverbs.pages.dev/) - Learn Japanese verbs with this PWA ([Codes](https://github.com/jonathanhecl/japaverbs))
 - [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
 
-Projects:
+Main projects:
+- [vibe-coder}(https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
+- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
+- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
+- [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
+
+Other projects:
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
 - 📝 [PeerFlow](https://github.com/jonathanhecl/PeerFlow) - A cross-platform, decentralized, real-time shared notepad that works entirely over your local network. No servers, no cloud, no external dependencies — pure Peer-to-Peer.
