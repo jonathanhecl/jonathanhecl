@@ -198,16 +198,40 @@ const TRANSLATIONS = {
 // ==========================================
 const PROJECTS = [
     {
-        id: "go-crew",
+        id: "ollamabot",
         category: "ai",
-        title: "GO-Crew",
+        title: "ollamabot",
         desc: {
-            es: "Sistema RAG offline standalone para indexar y consultar documentos en un entorno local seguro. Desarrollado en Go, integra Ollama para IA de vanguardia sin dependencia de la nube.",
-            en: "Standalone offline RAG system to index and query documents in a secure local environment. Written in Go, integrating Ollama for zero cloud dependencies.",
-            ja: "ドキュメントを安全なローカル環境で索引・検索するスタンドアロンオフラインRAGシステム。Go言語で書かれ、クラウド不要でOllamaを統合。"
+            es: "Bot y enrutador inteligente y eficiente de recursos locales que combina múltiples modelos de Ollama, permitiendo aprovechar diferentes capacidades en cada uno.",
+            en: "Intelligent and efficient local resource router that combines multiple Ollama models, leveraging unique capabilities from each model.",
+            ja: "複数のOllamaモデルを組み合わせ、それぞれの独自の機能を活用する、ローカルリソース用のインテリジェントで効率的なルーターボット。"
         },
-        tags: ["Golang", "Ollama", "RAG", "Vector-DB", "Svelte"],
-        github: "https://github.com/jonathanhecl/go-crew"
+        tags: ["Golang", "Ollama", "Smart-Routing", "AI-Agent", "Telegram-Bot"],
+        github: "https://github.com/jonathanhecl/ollamabot"
+    },
+    {
+        id: "ollama-manager",
+        category: "ai",
+        title: "Ollama-Manager",
+        desc: {
+            es: "Interfaz gráfica y panel de control para administrar modelos locales de Ollama, permitiendo descargar, eliminar y probar modelos de manera interactiva.",
+            en: "Graphical interface and control panel to manage local Ollama models, enabling users to download, delete, and test models interactively.",
+            ja: "ローカルのOllamaモデルを管理するためのグラフィカルインターフェース and コントロールパネル。モデルを対話的にダウンロード、削除、テストできます。"
+        },
+        tags: ["Golang", "Ollama", "Model-Management", "Desktop-App", "REST-API"],
+        github: "https://github.com/jonathanhecl/Ollama-Manager"
+    },
+    {
+        id: "imperial-shield",
+        category: "sys",
+        title: "Imperial Shield",
+        desc: {
+            es: "Centro de seguridad avanzado para Windows. Realiza monitoreo en tiempo real del archivo HOSTS, Windows Defender, configuración de red y telemetría de privacidad.",
+            en: "Advanced Windows security hub. Features real-time monitoring for the HOSTS file, Windows Defender, network configurations, and telemetry privacy.",
+            ja: "Windows向けの高度なセキュリティハブ。HOSTSファイル、Windows Defender、ネットワーク構成、プライバシーの遠隔測定をリアルタイム監視。"
+        },
+        tags: ["C#", "Windows-API", "Security", "WPF", "Networking"],
+        github: "https://github.com/jonathanhecl/imperial-shield"
     },
     {
         id: "vibe-coder",
@@ -222,40 +246,16 @@ const PROJECTS = [
         github: "https://github.com/jonathanhecl" // General github redirect since it's one of his top search mentions
     },
     {
-        id: "ollama-manager",
+        id: "go-crew",
         category: "ai",
-        title: "Ollama-Manager",
+        title: "GO-Crew",
         desc: {
-            es: "Interfaz gráfica y panel de control para administrar modelos locales de Ollama, permitiendo descargar, eliminar y probar modelos de manera interactiva.",
-            en: "Graphical interface and control panel to manage local Ollama models, enabling users to download, delete, and test models interactively.",
-            ja: "ローカルのOllamaモデルを管理するためのグラフィカルインターフェースとコントロールパネル。モデルを対話的にダウンロード、削除、テストできます。"
+            es: "Sistema RAG offline standalone para indexar y consultar documentos en un entorno local seguro. Desarrollado en Go, integra Ollama para IA de vanguardia sin dependencia de la nube.",
+            en: "Standalone offline RAG system to index and query documents in a secure local environment. Written in Go, integrating Ollama for zero cloud dependencies.",
+            ja: "ドキュメントを安全なローカル環境で索引・検索するスタンドアロンオフラインRAGシステム。Go言語で書かれ、クラウド不要でOllamaを統合。"
         },
-        tags: ["Golang", "Ollama", "Model-Management", "Desktop-App", "REST-API"],
-        github: "https://github.com/jonathanhecl/Ollama-Manager"
-    },
-    {
-        id: "ollamabot",
-        category: "ai",
-        title: "ollamabot",
-        desc: {
-            es: "Bot y enrutador inteligente y eficiente de recursos locales que combina múltiples modelos de Ollama, permitiendo aprovechar diferentes capacidades en cada uno.",
-            en: "Intelligent and efficient local resource router that combines multiple Ollama models, leveraging unique capabilities from each model.",
-            ja: "複数のOllamaモデルを組み合わせ、それぞれの独自の機能を活用する、ローカルリソース用のインテリジェントで効率的なルーターボット。"
-        },
-        tags: ["Golang", "Ollama", "Smart-Routing", "AI-Agent", "Telegram-Bot"],
-        github: "https://github.com/jonathanhecl/ollamabot"
-    },
-    {
-        id: "imperial-shield",
-        category: "sys",
-        title: "Imperial Shield",
-        desc: {
-            es: "Centro de seguridad avanzado para Windows. Realiza monitoreo en tiempo real del archivo HOSTS, Windows Defender, configuración de red y telemetría de privacidad.",
-            en: "Advanced Windows security hub. Features real-time monitoring for the HOSTS file, Windows Defender, network configurations, and telemetry privacy.",
-            ja: "Windows向けの高度なセキュリティハブ。HOSTSファイル、Windows Defender、ネットワーク構成、プライバシーの遠隔測定をリアルタイム監視。"
-        },
-        tags: ["C#", "Windows-API", "Security", "WPF", "Networking"],
-        github: "https://github.com/jonathanhecl/imperial-shield"
+        tags: ["Golang", "Ollama", "RAG", "Vector-DB", "Svelte"],
+        github: "https://github.com/jonathanhecl/go-crew"
     },
     {
         id: "japaverbs",
