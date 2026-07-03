@@ -5,10 +5,10 @@
 Main projects:
 - [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
 - [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
-- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 
 Other projects:
+- 🌟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - 🤖 [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
