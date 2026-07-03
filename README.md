@@ -3,7 +3,7 @@
 Featured links:
 - [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 - [JapaVerbs](https://japaverbs.pages.dev/) - Learn Japanese verbs with this PWA ([Codes](https://github.com/jonathanhecl/japaverbs))
-- [GO-Crew](https://www.jonathanhecl.com/go-crew/) - Easy RAG standalone using Ollama
+- [GO-Crew](https://github.com/jonathanhecl/go-crew) - Easy RAG standalone using Ollama
 
 Main projects:
 - [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.

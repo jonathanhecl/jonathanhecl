@@ -3,73 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GO-CREW: Offline RAG in Golang</title>
-    <meta name="description" content="GO-CREW: Offline RAG in Golang">
-    <meta property="og:image" content="https://www.jonathanhecl.com/go-crew/interface.png">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAr5JREFUWEfll0uozkEYxn/H/Z5bIZGNWy65hizERmFhIQmFOlJsLBFZkHLZWJCQomRhYWdFIhS55JLrQqHOkfsCuZtHz3zmjP9XX51zvvPVmc3/m/d7ZuaZd953nnfqgA7AFmA9MITqtAbgILCrDtgK7KjOuv+tsk0ExGZwGxFoEIHfbbT432Vrj0BPYHqIji7ALeBNGff0Nq4TcBt4XQY3EJgCfAeuA58yXBMPLAEOA/0M+ubo3JkNWuEQ7pPghMkjeXM43+1AV+Peh4BbB5xO5isRmGSGnQt2sho4bvsM4EpYrGMBbhVwwvblwMkCzA9gJnDT/5UIHAPW2HgHaATmu38PmOjfmlSTqwn3FpiX9LURtRvAVP++CPxMcJpjZU7gLjDBRg28D3wAujtN9P0KPADGGqfFnhinmPlld+srrOJDZ68j1VdkewGPgTE5AU000sZhwMvsgtAkIvQMGGGcrk15SoE6wDYtoN1+cV9jYkw9BzT3C2B4uyRwwVeuvDa3Eg+M9jkK+8iubc4RFCTFv5uwKAaKBrQPAkrD89n2Ffkfm5kFFR/BNF8k6YCWSMOKCUz2NToqCcKqEmiti+gsMAh4FXRnQSVpmJZKLeGB2r4JJT7j7Bad/VNA+t3XtuiBh4mQSLyEU3ZI8yVC3fyVGEmyoxipLzFSDaExWkOtJMdngMU2SpqlWLuTsI0EToVbcZnt11wJLXI/lW1JdZTwc1bHhcapIFmaEyhXQEQOkcDsoOuX/JjI02otcNRGVT6HCvJOXpoDXM4JyBXauaqf2PYEd6n8GmpJlbSq1Yf+fqCH+5LffcCmZKzm2xskfGNSPX12/0iGa1KWj/cZSxtUpChtVIwogsU+tv7ALEAlnKof1Q9FTbqvolSl2FXgXQaqvbK8zEZazdzWT7PGmnicxuf5hio+UlWVHdDz/A+beQjfso+Q9gAAAABJRU5ErkJggg==">
-    <link rel="stylesheet" href="styles.css" />
+    <meta http-equiv="refresh" content="0; url=https://github.com/jonathanhecl/go-crew">
+    <title>Redirecting to GO-CREW Repository...</title>
+    <link rel="canonical" href="https://github.com/jonathanhecl/go-crew">
+    <script type="text/javascript">
+        window.location.href = "https://github.com/jonathanhecl/go-crew";
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>GO-CREW</h1>
-            <p>Powerful Offline RAG in Golang</p>
-            <p class="version">Version 0.1.41 (04/12/2024)</p>
-            <div class="image-left"></div>
-            <div class="image-right"></div>
-        </div>
-    </header>
-
     <div class="container">
-        <section>
-            <h2>About GO-CREW</h2>
-            <p>GO-CREW is a cutting-edge Retrieval-Augmented Generation (RAG) software implemented in Golang. It offers a seamless, offline solution for advanced text processing and generation, with optional online capabilities.</p>
-        </section>
-
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Offline operation using local Ollama models</li>
-                <li>Local ChromaDb (encrypted/raw) for data storage</li>
-                <li class="gold">Semantic chunking advanced text processing</li>
-                <li>Process PDF, TXT, CSV, JSON and JSONLine files</li>
-                <li>URL content processing (when online)</li>
-                <li>Wikipedia data analysis (when online)</li>
-                <li>YouTube video transcription analysis (when online)</li>
-                <li>No Docker, Python, or Hugging Face dependencies</li>
-                <li>Standalone application - no browser required</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Changelog</h2>
-            <ul>
-                <li>0.1.41 (04/12/2024): New internal core, some bug fixes. Support custom output formats.</li>
-                <li>0.1.40 (01/09/2024): Internal core changed, semantic chunking improved, CSV, JSON, JSONLine support added.</li>
-                <li>0.1.38 (09/07/2024): First release.</li>
-            </ul>
-        </section>
-
-        <div class="btn-group">
-            <a href="./how-to-use.html" class="btn btn-guide">How to Use Guide</a>
-            <a href="./builds/go-crew-0.1.41.macos.zip" class="btn">Download for Mac</a>
-            <a href="./builds/go-crew-0.1.41.win64.zip" class="btn">Download for Windows</a>
-            <a href="./builds/go-crew-0.1.41.linux.zip" class="btn">Download for Linux</a>
-        </div>
+        <h1>Redirecting...</h1>
+        <p>This website has been retired. You are being redirected to the GO-CREW repository on GitHub.</p>
+        <p>If you are not redirected automatically, <a href="https://github.com/jonathanhecl/go-crew">click here to visit the repository</a>.</p>
     </div>
-
-    <footer>
-        <p>© 2024 GO-CREW. All rights reserved.</p>
-    </footer>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7GSH5LCJ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZX7GSH5LCJ');
-    </script>
 </body>
 </html>

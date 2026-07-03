@@ -3,112 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GO-CREW: How to Use Guide</title>
-    <meta name="description" content="GO-CREW: How to Use Guide">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAr5JREFUWEfll0uozkEYxn/H/Z5bIZGNWy65hizERmFhIQmFOlJsLBFZkHLZWJCQomRhYWdFIhS55JLrQqHOkfsCuZtHz3zmjP9XX51zvvPVmc3/m/d7ZuaZd953nnfqgA7AFmA9MITqtAbgILCrDtgK7KjOuv+tsk0ExGZwGxFoEIHfbbT432Vrj0BPYHqIji7ALeBNGff0Nq4TcBt4XQY3EJgCfAeuA58yXBMPLAEOA/0M+ubo3JkNWuEQ7pPghMkjeXM43+1AV+Peh4BbB5xO5isRmGSGnQt2sho4bvsM4EpYrGMBbhVwwvblwMkCzA9gJnDT/5UIHAPW2HgHaATmu38PmOjfmlSTqwn3FpiX9LURtRvAVP++CPxMcJpjZU7gLjDBRg28D3wAujtN9P0KPADGGqfFnhinmPlld+srrOJDZ68j1VdkewGPgTE5AU000sZhwMvsgtAkIvQMGGGcrk15SoE6wDYtoN1+cV9jYkw9BzT3C2B4uyRwwVeuvDa3Eg+M9jkK+8iubc4RFCTFv5uwKAaKBrQPAkrD89n2Ffkfm5kFFR/BNF8k6YCWSMOKCUz2NToqCcKqEmiti+gsMAh4FXRnQSVpmJZKLeGB2r4JJT7j7Bad/VNA+t3XtuiBh4mQSLyEU3ZI8yVC3fyVGEmyoxipLzFSDaExWkOtJMdngMU2SpqlWLuTsI0EToVbcZnt11wJLXI/lW1JdZTwc1bHhcapIFmaEyhXQEQOkcDsoOuX/JjI02otcNRGVT6HCvJOXpoDXM4JyBXauaqf2PYEd6n8GmpJlbSq1Yf+fqCH+5LffcCmZKzm2xskfGNSPX12/0iGa1KWj/cZSxtUpChtVIwogsU+tv7ALEAlnKof1Q9FTbqvolSl2FXgXQaqvbK8zEZazdzWT7PGmnicxuf5hio+UlWVHdDz/A+beQjfso+Q9gAAAABJRU5ErkJggg==">
-    <link rel="stylesheet" href="styles.css" />
+    <meta http-equiv="refresh" content="0; url=https://github.com/jonathanhecl/go-crew">
+    <title>Redirecting to GO-CREW Repository...</title>
+    <link rel="canonical" href="https://github.com/jonathanhecl/go-crew">
+    <script type="text/javascript">
+        window.location.href = "https://github.com/jonathanhecl/go-crew";
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>GO-CREW</h1>
-            <p>How to Use Guide</p>
-            <div class="image-left"></div>
-            <div class="image-right"></div>
-        </div>
-    </header>
-
     <div class="container">
-        <a href="./index.html">Go back</a>
-        <section>
-            <h2>Easy Steps to Get Started</h2>
-            <ol>
-                <li>Install Ollama: Visit <a href="https://ollama.com" target="_blank">ollama.com</a> and follow the installation instructions for your operating system.</li>
-                <li>Install a model (like Llama3.1):
-                    <pre><code>ollama pull llama3.1</code></pre>
-                </li>
-                <li>If needed, edit the default.toml configuration file for GO-CREW.</li>
-                <li>Run GO-CREW:
-                    <pre><code>./go-crew</code></pre>
-                </li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Understanding the Configuration (default.toml)</h2>
-            <pre><code>name = 'default.toml'
-prompt = 'Hello World'  # initial prompt
-default_model = 'llama3.1'
-default_temperature = 0.8
-default_model_context = 0  # 0 = automatic
-default_timeout = 60
-# default_custom_output = '<Output>(.*)<\/Output>'   # example for marco-o1
-concurrency = 2  # for more speed
-language = ''    # for force a response language
-system_prompt = ''
-server_url = ''  # for custom servers
-verbose = false
-
-[hosting]
-enabled = false  # host a webpage
-port = 3000
-auto_open = false  # open automatically when start
-
-[embedding]
-enabled = false         # use RAG functions
-database = 'default.db'
-database_compressed = false
-database_encryption_key = ''
-model = 'nomic-embed-text'  # model for embedding
-contexts_rerank = true
-contexts_per_request = 3
-
-[embedding.chunking]
-semantic_chunking = true    # use semantic chunking
-semantic_threshold = 0.456
-chunk_max_size = 1024
-chunk_overlap = 154         # 0.15*chunk
-
-[[embedding.sources]]
-document = 'document.txt'  # read a file, can use * for name
-
-[[embedding.sources]]
-document = 'document.csv'   # read a csv file
-header_question='question'  # optional, if you want to use a header for the question embedding
-header_answer='answer'      # optional, if you want to use a header for the answer response
-
-[[embedding.sources]]
-url = 'https://www.jonathanhecl.com/go-crew/'   # read a website</code></pre>
-        </section>
-
-        <section>
-            <h2>Configuration Explanation</h2>
-            <ul>
-                <li><strong>prompt:</strong> The initial prompt sent to the model.</li>
-                <li><strong>default_model:</strong> The default language model to use (e.g., 'llama3.1').</li>
-                <li><strong>default_temperature:</strong> Controls the randomness of the output (0.0 to 1.0).</li>
-                <li><strong>default_model_context:</strong> Context size (0 for automatic).</li>
-                <li><strong>default_custom_output:</strong> Regular expression for custom output.</li>
-                <li><strong>concurrency:</strong> Number of concurrent operations for increased speed.</li>
-                <li><strong>hosting:</strong> Settings for hosting a web interface.</li>
-                <li><strong>embedding:</strong> Settings for RAG (Retrieval-Augmented Generation) functions.</li>
-                <li><strong>embedding.sources:</strong> Define sources for document ingestion (files or URLs).</li>
-            </ul>
-        </section>
+        <h1>Redirecting...</h1>
+        <p>This page has been retired. You are being redirected to the GO-CREW repository on GitHub.</p>
+        <p>If you are not redirected automatically, <a href="https://github.com/jonathanhecl/go-crew">click here to visit the repository</a>.</p>
     </div>
-
-    <footer>
-        <p>© 2024 GO-CREW. All rights reserved.</p>
-    </footer>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX7GSH5LCJ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZX7GSH5LCJ');
-    </script>
 </body>
 </html>
