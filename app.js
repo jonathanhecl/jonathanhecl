@@ -63,7 +63,7 @@ const TRANSLATIONS = {
         "cli.cmd_coffee": "buy-coffee  - Dirección de donación para café.",
         "cli.cmd_clear": "clear       - Limpiar la pantalla de la consola.",
         "cli.about_text": "Jonathan Hecl: Desarrollador full-stack y de videojuegos autodidacta radicado en Argentina. Enfocado en el manejo de modelos LLM open-source y cómo hacerlos útiles para la sociedad. Fundador de la legendaria comunidad GS-Zone y streamer en hidE_zone. Apasionado por la optimización de sistemas.",
-        "cli.contact_text": "Puedes contactarme a través de:\n- Email: jonathanhecl@gmail.com\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
+        "cli.contact_text": "Puedes contactarme a través de:\n- Email: [email]\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
         "cli.coffee_text": "¡Gracias por el café! Dirección BNB/BEP-20: 0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d",
         "cli.invalid": "Comando no reconocido. Escribe 'help' para ver la lista de comandos."
     },
@@ -125,7 +125,7 @@ const TRANSLATIONS = {
         "cli.cmd_coffee": "buy-coffee  - Support me with crypto-coffee.",
         "cli.cmd_clear": "clear       - Clear the console screen.",
         "cli.about_text": "Jonathan Hecl: Self-taught full-stack and game developer based in Argentina. Focused on open-source LLM management and making them useful for society. Founder of GS-Zone and content creator at hidE_zone. Driven by low-level coding and software optimization.",
-        "cli.contact_text": "You can reach me at:\n- Email: jonathanhecl@gmail.com\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
+        "cli.contact_text": "You can reach me at:\n- Email: [email]\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
         "cli.coffee_text": "Thanks for the support! BNB/BEP-20 address: 0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d",
         "cli.invalid": "Command not recognized. Type 'help' to see the list of commands."
     },
@@ -187,7 +187,7 @@ const TRANSLATIONS = {
         "cli.cmd_coffee": "buy-coffee  - コーヒー代を送るためのアドレスを表示します。",
         "cli.cmd_clear": "clear       - 画面をクリアします。",
         "cli.about_text": "Jonathan Hecl: アルゼンチン在住の独学のフルスタックおよびゲーム開発者。オープンソースLLM의 管理と社会への応用に注力。伝説的なコミュニティ「GS-Zone」の創設者であり「hidE_zone」配信者。低レベルのコーディングと最適化を追求。",
-        "cli.contact_text": "連絡先一覧:\n- Email: jonathanhecl@gmail.com\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
+        "cli.contact_text": "連絡先一覧:\n- Email: [email]\n- LinkedIn: https://www.linkedin.com/in/jhecl/\n- GitHub: https://github.com/jonathanhecl",
         "cli.coffee_text": "サポートありがとうございます！ BNB/BEP-20アドレス: 0x13ED1fF925Aa0050D25904348dF9D7748ee6B88d",
         "cli.invalid": "不明なコマンドです。「help」と入力してコマンド一覧をご確認ください。"
     }
@@ -826,9 +826,12 @@ function initTerminal() {
             case "about":
                 appendLine(TRANSLATIONS[currentLanguage]["cli.about_text"], "output-line text-green");
                 break;
-            case "contact":
-                appendMultiline(TRANSLATIONS[currentLanguage]["cli.contact_text"], "output-line text-cyan");
+            case "contact": {
+                const emailStr = ["jonathanhecl", "gmail.com"].join("@");
+                const text = TRANSLATIONS[currentLanguage]["cli.contact_text"].replace("[email]", emailStr);
+                appendMultiline(text, "output-line text-cyan");
                 break;
+            }
             case "sudo buy-coffee":
             case "buy-coffee":
                 appendLine(TRANSLATIONS[currentLanguage]["cli.coffee_text"], "output-line text-yellow font-bold");
@@ -1124,6 +1127,11 @@ function initParticles() {
 // 11. GENERAL UTILITIES (DONATION CLIPS, SCROLLS)
 // ==========================================
 function initGeneralUtilities() {
+    // Email de-obfuscation on page load
+    document.querySelectorAll(".email-link").forEach(link => {
+        link.href = "mailto:" + ["jonathanhecl", "gmail.com"].join("@");
+    });
+
     const copyBtn = document.getElementById("copyWalletBtn");
     const walletText = document.getElementById("walletAddr");
     const toast = document.getElementById("copyToast");
