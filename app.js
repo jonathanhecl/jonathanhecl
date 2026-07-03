@@ -426,6 +426,70 @@ const SKILLS = [
 // ==========================================
 const TIMELINE = [
     {
+        year: "2024 - Presente",
+        year_en: "2024 - Present",
+        year_ja: "2024 - 現在",
+        title: {
+            es: "Lead Software Engineer | Quanticc",
+            en: "Lead Software Engineer | Quanticc",
+            ja: "リードソフトウェアエンジニア | Quanticc"
+        },
+        desc: {
+            es: "Programación del servidor principal y sus derivados. Diseño de base de datos relacionales, automatización de flujos de tareas distribuidas y gestión avanzada de protocolos y APIs internas en Go.",
+            en: "Programming of the core server and its derivatives. Relational database design, distributed task flow automation, and advanced management of internal APIs and protocols using Go.",
+            ja: "コアサーバーおよび派生システムの開発。リレーショナルデータベース設計、分散タスクフローの自動化、およびGoによる内部APIとプロトコルの高度な管理。"
+        },
+        icon: "fa-briefcase"
+    },
+    {
+        year: "2019 - 2023",
+        year_en: "2019 - 2023",
+        year_ja: "2019 - 2023",
+        title: {
+            es: "Backend Developer Golang | Apperto",
+            en: "Golang Backend Developer | Apperto",
+            ja: "Golangバックエンド開発者 | Apperto"
+        },
+        desc: {
+            es: "Desarrollo de microservicios robustos en Go utilizando gRPC y Protocol Buffers. Diseño e implementación de esquemas en PostgreSQL y Cloud Datastore dentro de Google Cloud Platform (GCP).",
+            en: "Development of robust microservices in Go utilizing gRPC and Protocol Buffers. Schema design and implementation in PostgreSQL and Cloud Datastore within Google Cloud Platform (GCP).",
+            ja: "gRPCおよびProtocol Buffersを使用したGoによる堅牢なマイクロサービス開発。Google Cloud Platform (GCP)環境下でのPostgreSQLおよびCloud Datastoreの設計と運用。"
+        },
+        icon: "fa-server"
+    },
+    {
+        year: "2017 - 2019",
+        year_en: "2017 - 2019",
+        year_ja: "2017 - 2019",
+        title: {
+            es: "Senior Full Stack Developer | Freelance",
+            en: "Senior Full Stack Developer | Freelance",
+            ja: "シニアフルスタック開発者 | フリーランス"
+        },
+        desc: {
+            es: "Desarrollo web Front-End (Angular 4-6, PHP, ASP.NET) y aplicaciones móviles híbridas (Ionic 3-4 para Android/iOS). Implementación de back-ends y scrapers de datos en Go, Selenium y C#.",
+            en: "Front-End web development (Angular 4-6, PHP, ASP.NET) and hybrid mobile apps (Ionic 3-4 for Android/iOS). Back-end development and data scrapers built with Go, Selenium, and C#.",
+            ja: "Angular 4-6、PHP、ASP.NETによるフロントエンド開発、およびAndroid/iOS向けIonic 3-4によるハイブリッドアプリ開発。Go、Selenium、C#によるバックエンド開発とスクレイピング。"
+        },
+        icon: "fa-laptop-code"
+    },
+    {
+        year: "2015 - 2016",
+        year_en: "2015 - 2016",
+        year_ja: "2015 - 2016",
+        title: {
+            es: "Application & Protocol Manager | Etipia",
+            en: "Application & Protocol Manager | Etipia",
+            ja: "アプリケーション＆プロトコルマネージャ | Etipia"
+        },
+        desc: {
+            es: "Coordinador de equipos y gestor de la API de Etipia. Desarrollo frontend en la plataforma utilizando AngularJS, WebSockets, HTML5 Canvas y backend en ASP.NET.",
+            en: "Team coordinator and protocol manager for the Etipia API. Front-end web development using AngularJS, WebSockets, HTML5 Canvas, and ASP.NET back-end logistics.",
+            ja: "開発チームの調整およびEtipia APIの設計・管理。AngularJS、WebSocket、HTML5 Canvasを用いたフロントエンド開発、およびASP.NETによるバックエンド開発。"
+        },
+        icon: "fa-network-wired"
+    },
+    {
         year: "2005 - Presente",
         year_en: "2005 - Present",
         year_ja: "2005 - 現在",
@@ -435,43 +499,27 @@ const TIMELINE = [
             ja: "創設者兼管理者 | GS-Zoneコミュニティ"
         },
         desc: {
-            es: "Fundé y administré la comunidad de desarrollo en línea más grande de habla hispana enfocada en Argentum Online y desarrollo indie. Con más de 500,000 publicaciones, logré liderar la administración del servidor, seguridad contra ataques, hosting de bases de datos, y moderación de equipos.",
-            en: "Founded and managed the largest Spanish-speaking online development community focusing on Argentum Online and indie game dev. Hosting over 500,000 posts, managing server setups, database tuning, network security, and moderator teams.",
-            ja: "Argentum Onlineとインディゲーム開発に焦点を当てた、スペイン語圏最大のオンライン開発コミュニティを創設・運営。50万件以上の投稿があり、サーバー管理、セキュリティ対策、データベース調整、チームのモデレーションを主導。"
+            es: "Creación y mantenimiento técnico del foro GS-Zone (más de 500,000 posts). Migrado progresivamente desde phpBB2 hasta XenForo. Tareas de hosting, base de datos, seguridad web, SEO y coordinación de equipos de moderación.",
+            en: "Creation and technical maintenance of the GS-Zone developer forum (500k+ posts). Successfully migrated from phpBB2 through XenForo. In charge of server setup, security tuning, SEO, and community leadership.",
+            ja: "開発者フォーラム「GS-Zone」（投稿数50万件超）の創設と運用保守。phpBB2からXenForoへの移行。サーバー構築、セキュリティ調整, SEO対策、および運営モデレーターチームの統率。"
         },
         icon: "fa-users"
     },
     {
-        year: "2020 - Presente",
-        year_en: "2020 - Present",
-        year_ja: "2020 - 現在",
+        year: "1998 - 2013",
+        year_en: "1998 - 2013",
+        year_ja: "1998 - 2013",
         title: {
-            es: "Creador de Contenido & Streamer | hidE_zone",
-            en: "Content Creator & Streamer | hidE_zone",
-            ja: "コンテンツクリエイター＆配信者 | hidE_zone"
+            es: "Raíces en Código | TrucosGenio & Argentum Online",
+            en: "Coding Roots | TrucosGenio & Argentum Online",
+            ja: "開発の原点 | TrucosGenio & Argentum Online"
         },
         desc: {
-            es: "Canal de YouTube y transmisiones en vivo enfocado en la programación en tiempo real, el diseño de videojuegos en Godot Engine, y el análisis de algoritmos e inteligencia artificial. Creando una comunidad activa de jóvenes programadores.",
-            en: "YouTube channel and live streams dedicated to live coding, game architecture design in Godot Engine, local AI setups, and algorithms walkthroughs, forming an active sub-community of young developers.",
-            ja: "ライブコーディング、Godot Engineでのゲーム設計、アルゴリズム分析、AI開発などに特化したYouTubeチャンネルとライブ配信。意欲的な若手プログラマーのアクティブなコミュニティを育成。"
+            es: "Creador de TrucosGenio (1998), primera web de trucos en español destacada en Clarín y el programa Level X. Programador en VB6 para herramientas e indexadores de assets de Argentum Online (2006).",
+            en: "Created TrucosGenio (1998), the first Spanish game guides site featured in Clarín and Level X TV show. Programmed tools and asset indexers in VB6 for Argentum Online (2006).",
+            ja: "スペイン語初のゲーム攻略サイト「TrucosGenio」を1998年に開設（新聞Clarínやテレビ番組Level Xに掲載）。2006年にVB6でArgentum Online用のリソースエeditorや索引ツールを開発。"
         },
-        icon: "fa-tv"
-    },
-    {
-        year: "2005 - En adelante",
-        year_en: "2005 - Onward",
-        year_ja: "2005 - 以降",
-        title: {
-            es: "Desarrollador Full-stack & Creador Open Source",
-            en: "Full-stack Developer & Open Source Creator",
-            ja: "フルスタック開発者・オープンソース制作者"
-        },
-        desc: {
-            es: "Trayectoria multidisciplinaria y autodidacta desarrollando más de 80 proyectos. Especializado en el ecosistema Go (microservicios gRPC, CLI de alto rendimiento) y el motor Godot. Creador de librerías para Ollama y utilidades robustas de seguridad para sistemas operativos Windows.",
-            en: "A self-taught journey developing over 80 code repositories. Specializing in the Go ecosystem (high-performance CLI, gRPC microservices), Godot engine architectures, Ollama wrapper integrations, and Windows OS native security layers.",
-            ja: "80以上のコードリポジトリを開発した独学のジャーニー。Goエコシステム（高性能CLI、gRPCマイクロサービス）、Godotエンジン設計、Ollama連携モジュール、Windows用セキュリティユーティリティなどの開発に特化。"
-        },
-        icon: "fa-laptop-code"
+        icon: "fa-gamepad"
     }
 ];
 
