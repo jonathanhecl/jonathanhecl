@@ -182,6 +182,15 @@ body {
 .logo-bracket {
     color: var(--accent-cyan);
     font-weight: 800;
+    transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.nav-logo:hover .logo-bracket:first-of-type {
+    transform: translateX(-3px);
+}
+
+.nav-logo:hover .logo-bracket:last-of-type {
+    transform: translateX(3px);
 }
 
 .logo-text {
