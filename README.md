@@ -12,7 +12,7 @@ Other projects:
 - 🤖 [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
-- 📚 [GO-Crew](https://github.com/jonathanhecl/go-crew) - Lightweight, high-performance orchestration framework written in Go for executing localized AI agents. RAG with semantic or agentic chunking.
+- 📚 [GO-Crew](https://github.com/jonathanhecl/go-crew) - Lightweight, high-performance orchestration framework written in Go for executing localized AI agents. RAG with semantic/agentic chunking.
 - 📝 [PeerFlow](https://github.com/jonathanhecl/PeerFlow) - A cross-platform, decentralized, real-time shared notepad that works entirely over your local network. No servers, no cloud, no external dependencies — pure Peer-to-Peer.
 - 📊 [ollama-bench-go](https://github.com/jonathanhecl/ollama-bench-go) - Benchmarking tool for Ollama models written in Go.
 - 🔄 [gigabot-remote-updater](https://github.com/jonathanhecl/gigabot-remote-updater) - Remote updater utility for the Gigabot agent.
