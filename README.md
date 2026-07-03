@@ -1,20 +1,18 @@
-### [Hello World 👋](https://www.jonathanhecl.com)
+### [Hello World 👋 Go To Profile](https://www.jonathanhecl.com)
 
-Featured links:
-- [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
-- [JapaVerbs](https://japaverbs.pages.dev/) - Learn Japanese verbs with this PWA ([Codes](https://github.com/jonathanhecl/japaverbs))
-- [GO-Crew](https://github.com/jonathanhecl/go-crew) - Easy RAG standalone using Ollama
+[Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
 Main projects:
 - [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
 - [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
-- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 
 Other projects:
+- 🌟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - 🤖 [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
+- 📚 [GO-Crew](https://github.com/jonathanhecl/go-crew) - Lightweight, high-performance orchestration framework written in Go for executing localized AI agents. RAG with semantic/agentic chunking.
 - 📝 [PeerFlow](https://github.com/jonathanhecl/PeerFlow) - A cross-platform, decentralized, real-time shared notepad that works entirely over your local network. No servers, no cloud, no external dependencies — pure Peer-to-Peer.
 - 📊 [ollama-bench-go](https://github.com/jonathanhecl/ollama-bench-go) - Benchmarking tool for Ollama models written in Go.
 - 🔄 [gigabot-remote-updater](https://github.com/jonathanhecl/gigabot-remote-updater) - Remote updater utility for the Gigabot agent.
@@ -23,6 +21,7 @@ Other projects:
 - 📺 [stream-sync](https://github.com/jonathanhecl/stream-sync) - Cross-platform stream manager for Twitch & Kick synchronization.
 - 🦙 [gollama](https://github.com/jonathanhecl/gollama) - Easy integration library for Ollama in Go applications.
 - 🚢 [bru-ship](https://github.com/jonathanhecl/bru-ship) - CLI tool to convert Bruno API collections to Postman format.
+- 🇯🇵 [JapaVerbs](https://github.com/jonathanhecl/japaverbs) - Learn Japanese verbs with this PWA [Website](https://japaverbs.pages.dev/)
 - 🇯🇵 [japanese-learning-agent-ollama](https://github.com/jonathanhecl/japanese-learning-agent-ollama) - Japanese language learning agent powered by Ollama.
 - 🎭 [managerCharAI](https://github.com/jonathanhecl/managerCharAI) - Library designed to read and parse Character Card V3.
 - 📝 [pNotepad](https://github.com/jonathanhecl/pNotepad) - Secure, cross-platform notepad application managing encrypted notes.
