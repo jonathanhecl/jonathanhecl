@@ -842,6 +842,15 @@ function initTerminal() {
             case "experience":
                 printExperienceCLI();
                 break;
+            case "iddqd":
+                if (currentLanguage === "es") {
+                    appendLine("¡GOD MODE ACTIVADO! Felicitaciones campeón, tú sí que sabes. 🕶️", "output-line text-yellow font-bold");
+                } else if (currentLanguage === "ja") {
+                    appendLine("ゴッドモード有効化！おめでとう、チャンピオン！君は本当によく知っているね。 🕶️", "output-line text-yellow font-bold");
+                } else {
+                    appendLine("GOD MODE ACTIVATED! Congratulations champion, you really know your stuff. 🕶️", "output-line text-yellow font-bold");
+                }
+                break;
             default:
                 appendLine(TRANSLATIONS[currentLanguage]["cli.invalid"], "output-line text-red");
                 break;
