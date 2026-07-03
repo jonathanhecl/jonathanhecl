@@ -243,7 +243,31 @@ const PROJECTS = [
             ja: "Ollamaモデル専用のローカルファーストコーディングエージェント。コード生成、リファクタリング、技術的な質問の回答をマシン上で自動化。"
         },
         tags: ["Golang", "Ollama", "AI-Agent", "CLI", "JSON-RPC"],
-        github: "https://github.com/jonathanhecl" // General github redirect since it's one of his top search mentions
+        github: "https://github.com/jonathanhecl"
+    },
+    {
+        id: "gollama",
+        category: "lib",
+        title: "gollama",
+        desc: {
+            es: "Librería de integración ultraligera en Golang para interactuar con la API de Ollama, facilitando el desarrollo rápido de aplicaciones que usen LLMs locales.",
+            en: "Ultra-lightweight Golang integration library to interact with Ollama's API, enabling rapid local LLM application development.",
+            ja: "OllamaのAPIとやり取りするための超軽量なGolang統合ライブラリ。ローカルLLMアプリケーションの迅速な開発を可能にします。"
+        },
+        tags: ["Golang", "API-Wrapper", "Ollama", "JSON", "HTTP-Client"],
+        github: "https://github.com/jonathanhecl/gollama"
+    },
+    {
+        id: "bru-ship",
+        category: "lib",
+        title: "bru-ship",
+        desc: {
+            es: "Herramienta de línea de comandos en Go para convertir colecciones de Bruno API al formato clásico de Postman, ideal para la migración de equipos.",
+            en: "CLI tool in Go to convert Bruno API collections into Postman format, simplifying API specification sharing and migrations.",
+            ja: "Bruno APIコレクションをPostman形式に変換するGo製のCLIツール。API仕様の共有や移行を簡素化。"
+        },
+        tags: ["Golang", "CLI", "API-Migration", "Postman", "Bruno"],
+        github: "https://github.com/jonathanhecl/bru-ship"
     },
     {
         id: "go-crew",
@@ -256,18 +280,6 @@ const PROJECTS = [
         },
         tags: ["Golang", "Ollama", "RAG", "Vector-DB", "Svelte"],
         github: "https://github.com/jonathanhecl/go-crew"
-    },
-    {
-        id: "japaverbs",
-        category: "lib",
-        title: "JapaVerbs",
-        desc: {
-            es: "Aplicación Web Progresiva (PWA) de alto rendimiento diseñada para aprender y practicar conjugaciones de verbos en japonés de forma interactiva y sin conexión.",
-            en: "High-performance Progressive Web App (PWA) designed to learn and practice Japanese verb conjugations interactively and offline.",
-            ja: "日本語の動詞の活用をインタラクティブかつオフラインで学習・練習するために設計された高性能PWA（プログレッシブウェブアプリ）。"
-        },
-        tags: ["TypeScript", "PWA", "Japanese", "TailwindCSS", "Svelte"],
-        github: "https://github.com/jonathanhecl/japaverbs"
     },
     {
         id: "ollama-bench-go",
@@ -294,18 +306,6 @@ const PROJECTS = [
         github: "https://github.com/jonathanhecl/pNotepad-plus"
     },
     {
-        id: "gollama",
-        category: "lib",
-        title: "gollama",
-        desc: {
-            es: "Librería de integración ultraligera en Golang para interactuar con la API de Ollama, facilitando el desarrollo rápido de aplicaciones que usen LLMs locales.",
-            en: "Ultra-lightweight Golang integration library to interact with Ollama's API, enabling rapid local LLM application development.",
-            ja: "OllamaのAPIとやり取りするための超軽量なGolang統合ライブラリ。ローカルLLMアプリケーションの迅速な開発を可能にします。"
-        },
-        tags: ["Golang", "API-Wrapper", "Ollama", "JSON", "HTTP-Client"],
-        github: "https://github.com/jonathanhecl/gollama"
-    },
-    {
         id: "stream-sync",
         category: "lib",
         title: "stream-sync",
@@ -316,6 +316,18 @@ const PROJECTS = [
         },
         tags: ["TypeScript", "Twitch-API", "Kick-API", "WebSockets", "Node.js"],
         github: "https://github.com/jonathanhecl/stream-sync"
+    },
+    {
+        id: "japaverbs",
+        category: "lib",
+        title: "JapaVerbs",
+        desc: {
+            es: "Aplicación Web Progresiva (PWA) de alto rendimiento diseñada para aprender y practicar conjugaciones de verbos en japonés de forma interactiva y sin conexión.",
+            en: "High-performance Progressive Web App (PWA) designed to learn and practice Japanese verb conjugations interactively and offline.",
+            ja: "日本語の動詞の活用をインタラクティブかつオフラインで学習・練習するために設計された高性能PWA（プログレッシブウェブアプリ）。"
+        },
+        tags: ["TypeScript", "PWA", "Japanese", "TailwindCSS", "Svelte"],
+        github: "https://github.com/jonathanhecl/japaverbs"
     },
     {
         id: "argentum-godot",
@@ -352,18 +364,6 @@ const PROJECTS = [
         },
         tags: ["Godot-4", "GDScript", "Physics", "2D-Graphics", "Bitmaps"],
         github: "https://github.com/jonathanhecl/destructible-terrain-godot4"
-    },
-    {
-        id: "bru-ship",
-        category: "lib",
-        title: "bru-ship",
-        desc: {
-            es: "Herramienta de línea de comandos en Go para convertir colecciones de Bruno API al formato clásico de Postman, ideal para la migración de equipos.",
-            en: "CLI tool in Go to convert Bruno API collections into Postman format, simplifying API specification sharing and migrations.",
-            ja: "Bruno APIコレクションをPostman形式に変換するGo製のCLIツール。API仕様の共有や移行を簡素化。"
-        },
-        tags: ["Golang", "CLI", "API-Migration", "Postman", "Bruno"],
-        github: "https://github.com/jonathanhecl/bru-ship"
     }
 ];
 
