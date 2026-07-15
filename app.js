@@ -515,9 +515,9 @@ const TIMELINE = [
             ja: "開発の原点 | TrucosGenio & Argentum Online"
         },
         desc: {
-            es: "Creador de TrucosGenio (1998), primera web de trucos en español destacada en Clarín y el programa Level X. Programador en VB6 para herramientas e indexadores de assets de Argentum Online (2006).",
-            en: "Created TrucosGenio (1998), the first Spanish game guides site featured in Clarín and Level X TV show. Programmed tools and asset indexers in VB6 for Argentum Online (2006).",
-            ja: "スペイン語初のゲーム攻略サイト「TrucosGenio」を1998年に開設（新聞Clarínやテレビ番組Level Xに掲載）。2006年にVB6でArgentum Online用のリソースエeditorや索引ツールを開発。"
+            es: "Creador de TrucosGenio (1998), primera web de trucos en español destacada en Clarín y el programa Nivel X. Programador en VB6 para herramientas e indexadores de assets de Argentum Online (2006).",
+            en: "Created TrucosGenio (1998), the first Spanish game guides site featured in Clarín and Nivel X TV show. Programmed tools and asset indexers in VB6 for Argentum Online (2006).",
+            ja: "スペイン語初のゲーム攻略サイト「TrucosGenio」を1998年に開設（新聞Clarínやテレビ番組Nivel Xに掲載）。2006年にVB6でArgentum Online用のリソースエeditorや索引ツールを開発。"
         },
         icon: "fa-gamepad"
     }
