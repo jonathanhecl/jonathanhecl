@@ -8,6 +8,9 @@ Main projects:
 - [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 
+Skills:
+- [ollama-api-skill](https://github.com/jonathanhecl/ollama-api-skill) - Practical guidance for integrating with Ollama's REST API and building agents that dynamically detect and use model capabilities.
+
 Other projects:
 - 🌟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
