@@ -13,6 +13,7 @@ Skills:
 - [ollama-api-skill](https://github.com/jonathanhecl/ollama-api-skill) - Practical guidance for integrating with Ollama's REST API and building agents that dynamically detect and use model capabilities.
 
 Other projects:
+- 📹 [vWriter](https://github.com/jonathanhecl/vWriter) - vWriter is a MiniMax H3 video prompt studio. The app turns a creative brief plus image, video, and audio references into a structured full-reference video prompt, powered by Ollama vision models
 - 🌟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
