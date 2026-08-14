@@ -4,7 +4,7 @@
 
 Main projects:
 - [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
-- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Ollama easy model manager. Download, Remove and Try models remote or locally.
+- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Tiny, fast, and feature-packed Go web server to manage and interact with Ollama models on your local machine or LAN.
 - [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 - [OculusGo-dot-Launcher](https://github.com/jonathanhecl/OculusGo-dot-Launcher) - An app launcher for Oculus Go implemented in Godot.
