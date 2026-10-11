@@ -1,6 +1,6 @@
-### [Hello World 👋 Go To Profile](https://www.jonathanhecl.com)
+### [Hello World 👋 View the online portfolio](https://www.jonathanhecl.com)
 
-[Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
+[🪓 Quick and easy-to-use web tools.](https://jonathanhecl.github.io/web-tools/)
 
 Active projects:
 - 🚀 [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Tiny, fast, and feature-packed Go web server to manage and interact with Ollama models on your local machine or LAN.
