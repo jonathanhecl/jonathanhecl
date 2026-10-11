@@ -2,19 +2,20 @@
 
 [Web Tools](https://jonathanhecl.github.io/web-tools/) - Some online tools
 
-Main projects:
-- [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Tiny, fast, and feature-packed Go web server to manage and interact with Ollama models on your local machine or LAN.
-- [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
-- [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
-- [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
-- [OculusGo-dot-Launcher](https://github.com/jonathanhecl/OculusGo-dot-Launcher) - An app launcher for Oculus Go implemented in Godot.
-- [vWriter](https://github.com/jonathanhecl/vWriter) - vWriter is a MiniMax H3 video prompt studio. The app turns a creative brief plus image, video, and audio references into a structured full-reference video prompt, powered by Ollama vision models
-- [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
+Active projects:
+- 🚀 [Ollama-Manager](https://github.com/jonathanhecl/ollama-manager) - Tiny, fast, and feature-packed Go web server to manage and interact with Ollama models on your local machine or LAN.
+- 💻 [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
+- 🥽 [OculusGo-dot-Launcher](https://github.com/jonathanhecl/OculusGo-dot-Launcher) - An app launcher for Oculus Go implemented in Godot.
+- 🤖 [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
+- 🪟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 
 Skills:
-- [ollama-api-skill](https://github.com/jonathanhecl/ollama-api-skill) - Practical guidance for integrating with Ollama's REST API and building agents that dynamically detect and use model capabilities.
+- 📚 [ollama-api-skill](https://github.com/jonathanhecl/ollama-api-skill) - Practical guidance for integrating with Ollama's REST API and building agents that dynamically detect and use model capabilities.
 
 Other projects:
+
+- 📼 [vWriter](https://github.com/jonathanhecl/vWriter) - vWriter is a MiniMax H3 video prompt studio. The app turns a creative brief plus image, video, and audio references into a structured full-reference video prompt, powered by Ollama vision models
+- 🛡️ [Imperial Shield](https://jonathanhecl.github.io/imperial-shield/) - Advanced Windows security hub. Real-time monitoring for HOSTS, Defender, network, and privacy.
 - 🤖 [Megabot](https://github.com/jonathanhecl/megabot) - Telegram autonomous AI agent bootstrap built with Go.
 - 🤖 [Gigabot](https://github.com/jonathanhecl/gigabot) - Gigabot is a local-first agentic assistant written in Go, primarily operated through Telegram.
 - 📚 [GO-Crew](https://github.com/jonathanhecl/go-crew) - Lightweight, high-performance orchestration framework written in Go for executing localized AI agents. RAG with semantic/agentic chunking.
