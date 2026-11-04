@@ -7,6 +7,7 @@ Active projects:
 - 💻 [vibe-coder](https://github.com/jonathanhecl/vibe-coder) - vibe-coder is a local-first coding agent for Ollama, built in Go.
 - 🥽 [OculusGo-dot-Launcher](https://github.com/jonathanhecl/OculusGo-dot-Launcher) - An app launcher for Oculus Go implemented in Godot.
 - 🤖 [OllamaBot](https://github.com/jonathanhecl/ollamabot) - Local-first autonomous agent powered explicitly by local models via Ollama. It implements dynamic capability routing to dispatch specialized tasks.
+- 📋 [diffusionCatalog](https://github.com/jonathanhecl/diffusionCatalog) - High-performance, local-first media catalog & 2.5D visual staging director for AI-generated images and videos (Pure Go, ComfyUI, A1111, Ollama).
 - 🪟 [Mado-Tray](https://github.com/jonathanhecl/mado-tray) - Mado-Tray is a startup process manager for macOS.
 
 Skills:
